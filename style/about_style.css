@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.header_container{
+    background-color:bisque;
+    width:100%;
+    height:80px;
+    position: relative;
+}
+.title{
+    position: absolute;
+    left:30%;
+    top:20px;
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main{
+    background-color:white;
+    width:auto;
+    height: 500px;
+    position: relative;
+    padding: 20px;
+}
+.abt{
+    position: absolute;
+    top: 30px;
+    left:35%;
+    color:black;
+}
+.para1{
+    color:darkmagenta;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.abt1{
+    position: absolute;
+    left:35%;
+    color:black;
+    font-weight: bold;
+}
