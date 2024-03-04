@@ -14,16 +14,16 @@
 .singup_container{
     position: absolute;
     top:5%;
-    left:35%;
+    left:30%;
     background-color: white;
     border: 1.8px solid lavender;
     border-radius: 5px;
-    width:26%;
+    width:40%;
     height: 500px;
     position: relative;
 }
 .singup_container:hover{
-    background-color:honeydew;
+    
     border: 1.8px solid rgba(0, 0, 0, 0.782);
 }
 .title{
@@ -38,14 +38,14 @@ input[type=text]{
     background-color:#0deb15;
     position: absolute;
     top:70px;
-    left:45px;
+    left:85px;
     border:0px solid black;
     color:white;
     font-size: 16px;
     padding: 19px 30px;
-    border-radius:20px;
+    border-radius:5px;
     height: 20px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -53,14 +53,14 @@ input[type=text1]{
     background-color:#0deb15;
     position: absolute;
     top:130px;
-    left:45px;
+    left:85px;
     border:0px solid black;
     color:white;
     font-size: 16px;
     padding: 19px 30px;
-    border-radius:20px;
+    border-radius:5px;
     height: 20px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -68,14 +68,14 @@ input[type=email]{
     background-color:#0deb15;
     position: absolute;
     top:190px;
-    left:45px;
+    left:85px;
     border:0px solid black;
     color:white;
     font-size: 16px;
     padding: 19px 30px;
-    border-radius:30px;
+    border-radius:5px;
     height: 20px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -86,12 +86,12 @@ input[type=password]{
     color:white;
     font-size: 16px;
     padding: 19px 30px;
-    border-radius:30px;
+    border-radius:5px;
     height: 20px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     top:250px;
-    left:45px;
+    left:85px;
     font-family: 'Roboto', sans-serif;
 }
 input[type=password1]{
@@ -101,38 +101,38 @@ input[type=password1]{
     color:white;
     font-size: 16px;
     padding: 19px 30px;
-    border-radius:30px;
+    border-radius:5px;
     height: 20px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     top:310px;
-    left:45px;
+    left:85px;
     font-family: 'Roboto', sans-serif;
 }
 input[type=checkbox]{
     position: absolute;
     top:370px;
-    left:75px;
+    left:135px;
 }
 .terms_container{
     font-size:small;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
     top: 368px;
-    left:93px;
+    left:160px;
 }
 input[type=submit]{
     background-color:rgba(0, 0, 255, 0.718);
     position: absolute;
     top:410px;
-    left:45px;
+    left:85px;
     border: 0px solid black;
     color:white;
     font-size: 16px;
     padding: 19px 30px;
-    border-radius:30px;
+    border-radius:5px;
     height: 20px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     cursor:pointer;

@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:100%;
+    height:580px;
+    background-color:papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.8px solid black;
+    
+}
+.singin_container{
+    background-color: white;
+    border: 1.8px solid lavender;
+    border-radius: 5px;
+    width:40%;
+    height: 450px;
+    position: relative;
+
+}
+.singin_container:hover{
+    
+    border: 1.8px solid rgba(0, 0, 0, 0.782);
+}
+.title{
+    position: absolute;
+    color:black;
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+    top:15px;
+    left:40%;
+}
+input[type=email]{
+    background-color:#0deb15;
+    position: absolute;
+    top:70px;
+    left:95px;
+    border:0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:5px;
+    height: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=password]{
+    position: absolute;
+    background-color:#0deb15;
+    border: 0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:5px;
+    height: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    top:140px;
+    left:95px;
+    font-family: 'Roboto', sans-serif;
+}
+.forget_pass{
+    color:red;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 210px;
+    right: 55px;
+    cursor:pointer;
+}
+input[type=submit]{
+    background-color:rgba(0, 0, 255, 0.718);
+    position: absolute;
+    top: 245px;
+    left: 95px;
+    border: 0px solid black;
+    color:white;
+    font-size: 16px;
+    padding: 19px 30px;
+    border-radius:5px;
+    height: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+input[type=submit]:hover{
+    background-color:blue;
+}
+
+.signup{
+    color:black;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top:310px;
+    left:99px;
+    cursor:pointer;
+    text-decoration: none;
+}
+.choice{
+    position: absolute;
+    top:340px;
+    left:190px;
+}
+.hori1{
+    position: absolute;
+    top:350px;
+    left:0px;
+    width:180px;
+}
+.hori2{
+    position: absolute;
+    top:350px;
+    right:0px;
+    width:180px;
+}
+.logo{
+    position: absolute;
+    top: 388px;
+    left: 155px;
+    letter-spacing: 5px;
+}
